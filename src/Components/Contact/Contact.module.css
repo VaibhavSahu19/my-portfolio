@@ -61,6 +61,8 @@
 
     .contactLinks {
         padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .contactLink a{
         font-size: 24px;
