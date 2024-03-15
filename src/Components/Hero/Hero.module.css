@@ -35,6 +35,12 @@
     margin-bottom: 52px;
 }
 
+.buttonsDiv{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
 .contactBtn{
     text-decoration: none;
     background-color: var(--color-primary);
