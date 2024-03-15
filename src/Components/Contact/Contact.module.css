@@ -59,12 +59,10 @@
         flex-direction: column;
     }
 
-    .contactLinks {
-        padding-bottom: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+    .contactLinks{
+        padding: 10px 50px;
     }
     .contactLink a{
-        font-size: 24px;
+        font-size: 20px;
     }
 }
