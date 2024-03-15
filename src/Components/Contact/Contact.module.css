@@ -58,4 +58,11 @@
         align-items: center;
         flex-direction: column;
     }
+
+    .contactLinks {
+        padding-bottom: 50px;
+    }
+    .contactLink a{
+        font-size: 24px;
+    }
 }
