@@ -1,0 +1,151 @@
+@import "../../vars.css";
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    z-index: 1;
+    padding: 20px 40px;
+    transition: background-color 0.6s ease-in-out;
+    height: 60px;
+}
+
+.navbar.fixed{
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+.navbar.scrolled{
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    background-color: var(--color-dark);
+}
+
+.navbar.scrolled a{
+    color: var(--color-bg);
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menu{
+    display: flex;
+}
+
+.menuBtn{
+    display: none;
+}
+
+.menuItems{
+    display: flex;
+    gap: 47px;
+    list-style: none;
+    z-index: 2;
+}
+
+.menuItems li{
+    color: var(--color-text);
+}
+
+.navbar .menuItems li {
+    position: relative;
+}
+
+.navbar .menuItems li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-primary);
+    transition: width 0.3s ease;
+}
+
+.navbar.scrolled .menuItems li a::after {
+    background-color: var(--color-bg); /* Underline color when navbar is scrolled */
+}
+
+.navbar .menuItems li a:hover::after {
+    width: 100%;
+}
+
+
+.menuItems a{
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 830px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu{
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menuBtn{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        align-content: center;
+    }
+
+    .menuBtn.scrolled{
+        color: var(--color-bg);
+    }
+
+    .menuItems{
+        display: none;
+        flex-direction: column;
+        gap: 13px;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(
+            0deg, 
+            var(--color-secondary)0%, 
+            var(--color-primary)100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    }
+
+    .menuItems a{
+        color: var(--color-bg);
+    }
+
+    .menuItems.scrolled{
+        background: linear-gradient(
+            0deg, 
+            var(--color-secondary)0%, 
+            var(--color-primary)100%
+        );
+    }
+
+    .navbar .menuItems li a:hover::after {
+        display: none;
+    }
+
+    .menuOpen{
+        display: flex;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Quiz App",
+    "imageSrc": "projects/quiz.png",
+    "description": "This is a quiz app that dynamically fetches questions and answers of quiz from an API.",
+    "skills": ["React", "Trivia API"],
+    "demo": "https://vaibhav-sahu-quiz-app.vercel.app/",
+    "source": "https://github.com/VaibhavSahu19/Quiz-app"
+  },
+  {
+    "title": "Amazon Clone",
+    "imageSrc": "projects/amazon.png",
+    "description": "This is an amazon clone that is made using vanilla JS.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "",
+    "source": "https://github.com/VaibhavSahu19/Amazon-Clone"
+  },
+  {
+    "title": "Rock Paper Scissors Game",
+    "imageSrc": "projects/rock.png",
+    "description": "This is a Rock Paper Scissors Game that is implemented on vanilla JS.",
+    "skills": ["HTML", "CSS", "JavsScript"],
+    "demo": "https://vaibhav-sahu-rock-paper-scissors-game.vercel.app/",
+    "source": "https://github.com/VaibhavSahu19/Rock-Paper-Scissor-Game"
+  }
+]

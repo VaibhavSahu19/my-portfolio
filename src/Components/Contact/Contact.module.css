@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 320px;
+    color: var(--color-bg);
+    background: var(--color-secondary);
+    flex-wrap: wrap;
+}
+
+.contactTitle{
+    font-size: 30px;
+    letter-spacing: 1.75px;
+    padding: 18px 24px;
+}
+
+.contactTitle h1{
+    font-weight: 400;
+}
+
+.contactTitle h3{
+    font-weight: 100;
+}
+
+.contactLinks a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.contactLink{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    align-content: center;
+}
+
+.contactLink a{
+    color: var(--color-bg);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 920px) {
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+    .contactTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
