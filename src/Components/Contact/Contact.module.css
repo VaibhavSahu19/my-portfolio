@@ -8,7 +8,7 @@
     align-items: center;
     height: 320px;
     color: var(--color-bg);
-    background: var(--color-secondary);
+    background: var(--color-dark);
     flex-wrap: wrap;
 }
 
