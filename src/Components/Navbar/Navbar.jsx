@@ -2,9 +2,10 @@ import React,{ useState, useEffect } from 'react'
 import styles from "./Navbar.module.css"
 import {getImageUrl} from "../../utils.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark, faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 
-export const Navbar = () => {
+
+export const Navbar = (props) => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -22,10 +23,12 @@ export const Navbar = () => {
     }, []);
 
   return (
-    <nav className={`${styles.navbar} ${styles.fixed} ${isScrolled && styles.scrolled}`}>
-        <a href="/" className={`${styles.title} ${isScrolled && styles.scrolled}`}>
-            Vaibhav Sahu
-        </a>
+    <nav className={`${styles.navbar} ${styles.fixed} ${isScrolled && styles.scrolled} ${props.isDark && styles.dark}`}>
+        <div className={styles.homeBtn}>
+            <a href="/" className={`${styles.title} ${isScrolled && styles.scrolled}`}>
+                Vaibhav Sahu
+            </a>
+        </div>
         <div className={styles.menu}>
             <div onClick={() => {
                 setMenuOpen(!menuOpen);

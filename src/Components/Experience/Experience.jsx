@@ -17,7 +17,8 @@ import history from "../../data/history.json"
 //   ]
   
 
-export const Experience = () => {
+export const Experience = (props) => {
+
     const skillsArr = skills.map((skill, id) =>{
         return <div key={id} className={styles.skill}>
             <div className={styles.skillImgContainer}>

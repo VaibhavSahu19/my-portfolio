@@ -31,8 +31,6 @@ export const Contact = () => {
                     /VaibhavSahu19
                 </a>
             </div>
-            
-            
         </div>
     </footer>
   )
