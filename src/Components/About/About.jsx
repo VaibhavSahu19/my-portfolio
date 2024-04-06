@@ -13,7 +13,7 @@ export const About = (props) => {
                     <img src={getImageUrl("about/code.png")} alt="cursor icon" />
                     <div className={styles.aboutItemText}>
                         <h1>Front-end Developer</h1>
-                        <p>I am a front-end developer with experience in building responsive websites</p>
+                        <p>I am a front-end developer with experience in building useful websites</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
