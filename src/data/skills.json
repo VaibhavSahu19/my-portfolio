@@ -1,23 +1,23 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
   },
   {
     "title": "JavaScript",
     "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
   },
   {
     "title": "MySQL",
