@@ -1,19 +1,19 @@
 [
   {
+    "title": "E-Commerce Website",
+    "imageSrc": "projects/e-commerce.png",
+    "description": "Developed an e-commerce website for a modern and responsive design",
+    "skills": ["ReactJS", "Tailwind CSS", "Vercel"],
+    "source": "https://github.com/VaibhavSahu19/AimForTech-Assignment",
+    "demo": "https://vaibhav-sahu-e-commerce.vercel.app/"
+  },
+  {
     "title": "Quiz App",
     "imageSrc": "projects/quiz.png",
     "description": "This is a quiz app that dynamically fetches questions and answers of quiz from an API.",
-    "skills": ["React", "Trivia API"],
+    "skills": ["ReactJS", "Trivia API"],
     "demo": "https://vaibhav-sahu-quiz-app.vercel.app/",
     "source": "https://github.com/VaibhavSahu19/Quiz-app"
-  },
-  {
-    "title": "Amazon Clone",
-    "imageSrc": "projects/amazon.png",
-    "description": "This is an amazon clone that is made using vanilla JS.",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "",
-    "source": "https://github.com/VaibhavSahu19/Amazon-Clone"
   },
   {
     "title": "Rock Paper Scissors Game",
